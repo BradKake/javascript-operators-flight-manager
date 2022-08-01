@@ -1,7 +1,7 @@
 "use strict"
 
 var assert = require('assert');
-var flights = require('../logic/flights');
+var flights = require('../logic/flights').default;
 var passengers = require('../logic/passengers');
 var util = require('../logic/util');
 
