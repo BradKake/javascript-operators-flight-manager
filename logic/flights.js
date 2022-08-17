@@ -30,10 +30,6 @@ function Flights() {
             throw new Error("The total distance cannot be more than the distance limit");
         }
 
-        // if (totalDistance > distanceLimit) {
-        //     throw new Error("Flight maximum allowed distance (" + distanceLimit + ") exceeded. No flight is allowed any longer, you need to make the revision immediately");
-        // }
-
         if (totalDistance <= (distanceLimit / 2)) {
             return "The revision needs to be done within the next 3 months";
         } else if (totalDistance <= 3 * distanceLimit / 4) {
